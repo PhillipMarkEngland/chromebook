@@ -1,0 +1,13 @@
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app.deps.json
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app.runtimeconfig.json
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app.runtimeconfig.dev.json
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app.dll
+/home/phillipmarkengland/cs/app/bin/Debug/netcoreapp3.1/app.pdb
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.csprojAssemblyReference.cache
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.csproj.CoreCompileInputs.cache
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.AssemblyInfoInputs.cache
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.AssemblyInfo.cs
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.dll
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.pdb
+/home/phillipmarkengland/cs/app/obj/Debug/netcoreapp3.1/app.genruntimeconfig.cache

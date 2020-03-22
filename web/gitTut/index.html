@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Learn Git</title>
+	</head>
+	<body>
+		<h1>How to use Git and Github</h1>
+
+		<hr>
+
+		<h2>What is Git?</h2>
+		<p>Git is a version control system. This allows many developers to work on the same project while being on different networks.</p>
+		<p>Git will track every change and version of a project.</p>
+		<p>This allows you to view previous versions of a code and retrieve earlier versions of files.</p>
+		<p>You can "commit" your code to git and this will track and save the current state of your files.</p>
+		<p>Once you commit, you can then pull those files on a different machine.</p>
+
+		<hr>
+
+		<h2>Basic Git Commands</h2>
+		<p>"git config --global user.name 'enter name here'" will set your name in git.</p>
+		<p>"git config --globql user.email 'enter email here'" will set your email in git.</p>
+		<p>"git init" will initialize a local git repository. If this command is ran within a directory, the entire directory will be initialized as a git repository.</p>
+		<p>"git add <file>" will add files to an index</p>
+		<p>If you want to add all the files in a directory to the staging area, you can type "git add ."</p>
+		<p>If you want to add all files of a specific type to the staging area, just type "git add *.<file-extension>"</p>
+		<p>If you modify a file while it is in the staging area, git will flag you and remind you to recommit the file to update the changes.</p>
+		<p>"git rm --cached <file>" will remove a file from the stating area in the case that you do not want to commit a specific file.</p>
+		<p>"git status" will check files in the index</p>
+		<p>"git commit" will commit changes to the index</p>
+		<p>When you make a commitment to git, you will need to add a comment to communicate the changes you have made to the project. Running "git commit" will open up a text editor. Nano is the default text editor that will be used. If you want to change the editor used, just type "git config --global core.editor <name-of-editor>" This will make git use your prefered editor be default.</p>
+		<p>To bypass opening an editor to add a comment, just run "git commit -m '<insert-comment-here>'"</p>
+		<p>"git push" will push files to a remote repository like github.</p>
+		<p>"git pull" will pull the latest version from a remote repository like github</p>
+		<p>"git clone" will clone a repository into a new directory.</p>
+		<p>"git --version" will let you see which version of git you a running. This is also a great way to check if you have git installed on your machine.</p>
+
+		<hr>
+
+		<h2>Git Bash</h2>
+		<p>Git bash is a Windows utility that allows you to use a linux-like shell in windows. This allows windows users to maintain a linuxy feel when they are developing on a windows machine.</p>
+		
+		<hr>
+
+		<h2>Using Git Ignore</h2>
+		<p>Create a file within you git project called ".gitignore"</p>
+		<p>.gitignore functions very much like a text file</p>
+		<p>To ignore a file during commitment, add the name of file in plain text to this .gitignore file.</p>
+		<p>You can also included entire directories to .gitignore</p>
+		<p>Simply put the path to the directory you want to ignore within the .gitignore file.</p>
+
+		<hr>
+
+		<h2>Using Branches</h2>
+		<p>Branches are used while pieces of a project are being developed.</p>
+		<p>Lets say you are working on creating a new navbar for a website, but you are not done with the nav bar. Creating a branch will allow you to work and make commitments to a "branch" of the project, without commiting the changes to the main brach. Once you are completed with your nav bar, you can then merge the changes to the main branch of the project.</p>
+		<p>Use "git branch <name-of-branch>" to add a new branch to a project.</p>
+		<p>To switch to a different branch run, "git checkout <name-of-branch>"</p>
+		<p>The name of the main branch is always called "master"</p>
+		<p>When you are ready to merge your changes to the master branch, go to the master branch and run "git merge <name-of-branch>"</p>
+
+		<hr>
+
+		<h2>Pushing Projects to Github</h2>
+		<p>Go to github.com and add a new repository. The website will then provide step by step instructions on how to get your files added to the repository.</p>
+
+	</body>
+</html>
