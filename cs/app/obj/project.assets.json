@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/phillipmarkengland/cs/app/app.csproj",
+      "projectUniqueName": "/home/phillipmarkengland/dev/cs/app/app.csproj",
       "projectName": "app",
-      "projectPath": "/home/phillipmarkengland/cs/app/app.csproj",
+      "projectPath": "/home/phillipmarkengland/dev/cs/app/app.csproj",
       "packagesPath": "/home/phillipmarkengland/.nuget/packages/",
-      "outputPath": "/home/phillipmarkengland/cs/app/obj/",
+      "outputPath": "/home/phillipmarkengland/dev/cs/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/phillipmarkengland/.nuget/NuGet/NuGet.Config"
